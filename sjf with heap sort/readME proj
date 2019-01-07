@@ -1,0 +1,6 @@
+SJF SCHEDULING WITH PRIORITY Using Heap Sort
+
+Develop an algorithm for CPU scheduler for a SJF scheduling in which each job has an priority and the job with the highest priority gets scheduled first using heap sort.
+
+
+project report attached

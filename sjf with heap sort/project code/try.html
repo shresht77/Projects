@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>try</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="algo.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+</head>
+<body style="background-color: #FFFDD0; ">
+<div class="containers" >	
+
+  <div style="font-weight: bold;" >
+    <h1 style="text-align: center;font-weight: 700; font-size: 4em;color: #505050";>SJF Priority scheduling</h1>
+    <h3 style="text-align: center; font-weight: 700;font-size: 3em;color: #606060";">Using Heap Sort</h3>
+    <hr>
+  </div>
+  
+  <div class="row" >
+ 
+    <table id="inputTable" class="table table-bordered box-shadow--6dp">
+        <tr style="background: #003800;
+	color: #FFF; font-weight: bold; height: 40px;">
+            <th>Process</th>
+            <th>Arrival Time</th>
+            <th>Burst Time</th>
+            <th>Priority</th>
+        </tr>
+        <tr class="warning">
+            <td>0</td>
+            <td>0</td>
+            <td><input class="exectime" type="text" ></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr class="warning">
+            <td>1</td>
+            <td>0</td>
+            <td><input class="exectime" ></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+
+    </div>
+    
+
+    <!-- </div> -->
+
+    <button style="margin-left: 30%;margin-top: 2%;" class="btn btn-primary btn-md" onclick="addRow();"><i class="fa fa-plus" aria-hidden="true"></i></button>
+    
+    <button style="margin-top: 2%;" class="btn btn-primary btn-md" onclick="deleteRow();"><i class="fa fa-minus" aria-hidden="true"></i></button>
+<p>
+	 <input style="margin-left: 30%; margin-top: 1%" type="button" class="btn btn-success btn-lg" value="Calculate" onclick="main_prio_sort();" >
+</p>
+    <fresh>
+    </fresh>
+    <p style="text-align: center;margin-top: 20px; font-size: 20px; ">
+    Timer: <strong id="timer"></strong> sec
+    </p>
+</div>
+</body>
+</html>

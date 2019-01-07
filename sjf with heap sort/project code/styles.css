@@ -1,0 +1,46 @@
+
+div th,div td {
+  border: 1px solid black;
+  text-align: center;
+}
+table {
+  display: inline;
+  border-collapse: collapse;
+  margin-left: 30%;
+}
+input {
+  text-align: center;
+
+}
+#curtain {
+  background-color: #FFFDD0;
+}
+fresh th {
+  background: linear-gradient(WhiteSmoke, #003800);
+  text-align: left;
+  border: 1px solid black;
+  height: 400 px;
+}
+
+
+fresh td {
+  border: 1px solid black;
+  /*border-bottom: 0;*/
+  height: 30px;
+  text-align: left;
+  
+
+}
+
+body {
+	font-family: "Varela Round" !important; 
+	background-image: url("circles-and-shapes-w.png");
+	background-size: cover;
+
+}
+hr {
+    width: 800px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
