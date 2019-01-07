@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>You are in 3x3 ex 1</title>
+    <link rel="stylesheet" type="text/css" href="buttons.css">
+  <style>
+    table, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+     margin-left: 35%;
+    margin-top: 5%;    
+}
+  </style>
+  <script src = "sudoScript3.js">
+    
+  </script>
+</head>
+<body>
+  <table style="height: 300px; width: 300px;">
+  <tr>
+    <td id="r11" style = "color:red">1</td>
+    <td contenteditable="true" id="r12"></td>
+    <td contenteditable="true" id="r13"></td>
+  </tr>
+  <tr>
+    <td contenteditable="true" id="r21"></td>
+    <td id="r22" style = "color:red">2</td>
+    <td contenteditable="true" id="r23"></td>
+  </tr>
+  <tr>
+    <td contenteditable="true" id="r31"></td>
+    <td contenteditable="true" id="r32"></td>
+    <td id="r33" style = "color:red">3</td>
+  </tr>
+</table>
+<br>
+<br>
+<button class="button" onclick="submit()">Submit</button>
+<p id="demo"></p>
+<p id="demo2"></p>    
+</body>
+</html>
